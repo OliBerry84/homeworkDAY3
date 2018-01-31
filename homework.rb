@@ -11,13 +11,13 @@ p stops
 # Work out the index position of "Linlithgow"
 p stops[5]
 # Remove "Livingston" from the array using its name
-stops.delete_at(6)
+stops.delete("Livingston")
 p stops
 # Delete "Cumbernauld" from the array by index
 stops.delete_at(2)
 p stops
 # How many stops there are in the array?
-
+p stops.count
 # How many ways can we return "Falkirk High" from the array?
 p stops[2]
 p stops[-5]
